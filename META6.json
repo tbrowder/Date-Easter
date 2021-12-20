@@ -1,0 +1,26 @@
+{
+  "auth": "zef:tbrowder",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "",
+  "license": "Artistic-2.0",
+  "name": "Date::Easter",
+  "perl": "6.d",
+  "provides": {
+    "Date::Easter": "lib/Date/Easter.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+    "Text::Utils"
+  ],
+  "version": "0.0.1"
+}
