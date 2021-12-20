@@ -1,13 +1,13 @@
 {
   "auth": "zef:tbrowder",
   "authors": [
-    "Tom Browder"
+    "Tom Browder <tbrowder@acm.org>"
   ],
   "build-depends": [
   ],
   "depends": [
   ],
-  "description": "",
+  "description": "Provides a routine to calculate the date of Easter in the Christian calendar",
   "license": "Artistic-2.0",
   "name": "Date::Easter",
   "perl": "6.d",
@@ -16,7 +16,7 @@
   },
   "resources": [
   ],
-  "source-url": "",
+  "source-url": "https://github.com/tbrowder/Date-Easter.git",
   "tags": [
   ],
   "test-depends": [

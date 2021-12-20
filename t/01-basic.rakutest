@@ -1,6 +1,0 @@
-use Test;
-use Date::Easter;
-
-pass "replace me";
-
-done-testing;
