@@ -8,7 +8,7 @@ Date::Easter - Provides a routine to calculate the date of Easter in the Christi
 
 =begin code :lang<raku>
 use Date::Easter;
-say Easter 2022; # OUTPUT: «2021-04-17␤»
+say Easter 2022; # OUTPUT: «2022-04-17␤»
 =end code
 
 =head1 DESCRIPTION

@@ -10,7 +10,7 @@ SYNOPSIS
 
 ```raku
 use Date::Easter;
-say Easter 2022; # OUTPUT: «2021-04-17␤»
+say Easter 2022; # OUTPUT: «2022-04-17␤»
 ```
 
 DESCRIPTION
