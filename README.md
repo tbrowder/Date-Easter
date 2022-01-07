@@ -16,9 +16,9 @@ say Easter 2022; # OUTPUT: «2022-04-17␤»
 DESCRIPTION
 ===========
 
-Date::Easter is a module which provides a subroutine to calculate the date of Easter in the Christian calendar.
+**Date::Easter** is a module which provides a subroutine to calculate the date of Easter in the Christian calendar. The sub returns a Raku **Date** object.
 
-The routine's code is the Raku version of the algorithm shown at [Isn’t there a simpler way to calculate Easter?](https://www.tondering.dk/claus/cal/easter.php#simplecalc). The website is a trreasure trove of calendar information, courtesy of the very generous and talented **Claus Tøndering**, to whom I am greatly indebted.
+The routine's code is the Raku version of the algorithm shown at [Isn’t there a simpler way to calculate Easter?](https://www.tondering.dk/claus/cal/easter.php#simplecalc). The website is a treasure trove of calendar information, courtesy of the very generous and talented **Claus Tøndering**, to whom I am greatly indebted.
 
 AUTHOR
 ======

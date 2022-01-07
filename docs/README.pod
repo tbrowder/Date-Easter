@@ -13,13 +13,13 @@ say Easter 2022; # OUTPUT: «2022-04-17␤»
 
 =head1 DESCRIPTION
 
-Date::Easter is a module which provides a subroutine
+B<Date::Easter> is a module which provides a subroutine
 to calculate the date of Easter in the Christian
-calendar.
+calendar. The sub returns a Raku B<Date> object.
 
 The routine's code is the Raku version of the algorithm shown
 at L<Isn’t there a simpler way to calculate Easter?|https://www.tondering.dk/claus/cal/easter.php#simplecalc>.
-The website is a trreasure trove of calendar information, courtesy
+The website is a treasure trove of calendar information, courtesy
 of the very generous and talented B<Claus Tøndering>, to whom I am greatly indebted.
 
 =head1 AUTHOR
