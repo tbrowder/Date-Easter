@@ -1,6 +1,9 @@
 Revision history for Date-Easter
 
 {{$NEXT}}
+    - Add 3-OS workflows testing
+    - Change README.pod to .rakudoc
+    - Update copyright dates
 
 0.0.2  2022-01-06T18:41:57-06:00
     - Mention the sub returms a Raku Date object
