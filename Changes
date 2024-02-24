@@ -1,6 +1,8 @@
 Revision history for Date-Easter
 
 {{$NEXT}}
+
+0.0.5  2024-02-23T21:09:40-06:00
     - Fix error in code for Good Friday which
         caused duplicate values
     - Add description of new sub in README
