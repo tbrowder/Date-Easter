@@ -2,7 +2,8 @@
 
 =head1 NAME
 
-Date::Easter - Provides a routine to calculate the date of Easter in the Christian calendar
+Date::Easter - Provides routines to calculate the dates of Easter and 
+related events in the Christian calendar
 
 =head1 SYNOPSIS
 
@@ -14,13 +15,55 @@ say Easter 2022; # OUTPUT: «2022-04-17␤»
 =head1 DESCRIPTION
 
 B<Date::Easter> is a module which provides a subroutine
-to calculate the date of Easter in the Christian
+to calculate the dates of Easter in the Christian
 calendar. The sub returns a Raku B<Date> object.
 
 The routine's code is the Raku version of the algorithm shown
 at L<Isn’t there a simpler way to calculate Easter?|https://www.tondering.dk/claus/cal/easter.php#simplecalc>.
 The website is a treasure trove of calendar information, courtesy
 of the very generous and talented B<Claus Tøndering>, to whom I am greatly indebted.
+
+Another routine returns a hash of C<Date::Event>s for use with the C<Calendar>
+module. The hash is keyed by a C<Date> with each key's value an array of
+C<Date::Event> objects whose attributes describe the Lenten and post-Lenten
+Christian celebratory events of:
+
+=begin item
+Ash Wednesday 
+
+The beginning of Lent [46 days before Easter]
+=end item
+
+=begin item
+Palm Sunday 
+
+Jesus Christ's entry into Jerusalem [the Sunday before Easter]
+=end item
+
+=begin item
+Good Friday 
+
+Jesus Christ's crucifixion [the Friday before Easter]
+=end item
+
+=begin item
+Easter Sunday
+
+The resurrection of Jesus Christ
+=end item
+
+=begin item
+Ascension 
+
+The ascension into Heaven of Jesus Christ [40 days after Easter]
+=end item
+
+=begin item
+Pentecost 
+
+The descent of the Holy Sprit upon the Virgin Mary and 
+the Disciples of Jesus Christ [50 days after Easter]
+=end item
 
 =head1 AUTHOR
 
