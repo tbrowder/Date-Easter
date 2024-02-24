@@ -83,7 +83,7 @@ sub get-easter-events-hashlist(:$year --> Hash) is export {
             }
         }
         # <good ascension pentecost>
-        when /\h*/ {
+        when /good/ {
             $date       = $goo;
             $name       = "Good Friday";
             $short-name = "Good Fri.";

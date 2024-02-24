@@ -46,6 +46,11 @@ Another routine returns a hash of `Date::Event`s for use with the `Calendar` mod
 
     The descent of the Holy Sprit upon the Virgin Mary and the Disciples of Jesus Christ [50 days after Easter]
 
+The event hash
+--------------
+
+    sub get-easter-events-hashlist(:$year --> Hash) is export {...}
+
 AUTHOR
 ======
 
