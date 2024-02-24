@@ -1,6 +1,17 @@
 Revision history for Date-Easter
 
 {{$NEXT}}
+    - Add more Easter-related events
+      + Maundy Thursday
+      + Pentecost
+      + Ash Wednesday
+      + Mardi Gras
+      + Palm Sunday
+      + Ascension Day
+      + Lent
+      + Epiphany
+    - Add a sub to return a hash of the Easter-related events
+    - Add more tests
 
 0.0.3  2024-02-20T17:12:58-06:00
     - Add 3-OS workflows testing

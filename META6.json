@@ -6,6 +6,7 @@
   "build-depends": [
   ],
   "depends": [
+    "Date::Event:ver<0.0.12>"
   ],
   "description": "Provides a routine to calculate the date of Easter in the Christian calendar",
   "license": "Artistic-2.0",

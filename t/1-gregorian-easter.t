@@ -4,7 +4,7 @@ use Date::Easter;
 # Copied from Perl module Date::Easter and modified for Raku and this
 # module.
 
-plan 16;
+plan 20;
 
 my $d;
 
@@ -39,3 +39,11 @@ is $d.day, 4, "2021 - April 4 (Got $d.day)";
 $d = Easter 2022;
 is $d.month, 4, "2022 - April (Got $d.month)";
 is $d.day, 17, "2022 - April 17 (Got $d.day)";
+
+$d = Easter 2024;
+is $d.month, 3, "2024 - March (Got $d.month)";
+is $d.day, 31, "2024 - March 31 (Got $d.day)";
+
+$d = Easter 2025;
+is $d.month, 4, "2025 - April (Got $d.month)";
+is $d.day, 20, "2025 - April 20 (Got $d.day)";
