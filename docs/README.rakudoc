@@ -65,7 +65,7 @@ The descent of the Holy Sprit upon the Virgin Mary and
 the Disciples of Jesus Christ [50 days after Easter]
 =end item
 
-=head2 The event hash
+=head2 The subroutine exporting all the events
 
 =begin code
 sub get-easter-events-hashlist(:$year --> Hash) is export {...}
